@@ -1,4 +1,4 @@
---------------------------------ASP.NET CORE MVC PROJESİ XUNIT BİRİM VE ENTEGRASYON TESTLERİ-------------------------------
+-----------------------------ASP.NET CORE MVC PROJESİ XUNIT BİRİM VE ENTEGRASYON TESTLERİ-------------------------------
 
 Öncelikle Core projesi içerisindeki blog controller test edildiğinden dolayı test classı BlogController bir bağımlılık olarak IRepositoy alır. Mock işlemini yapacağımız interface IRepositorydir. Burası taklit edilecek alandır. Asıl test edilecek nesne BlogControllerdır. Bu sınıf içerisindeki metotlar test edilir. Ekleme, silme, güncelleme işlemlerinin yapılması için elimizde blog bulunması gerekir.
 
